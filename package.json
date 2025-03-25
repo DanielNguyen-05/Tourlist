@@ -1,0 +1,8 @@
+{
+  "name": "Tour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DanielNguyen-05/Tour.git",
+  "author": "DanielNguyen-05 <nhdang231@clc.fitus.edu.vn>",
+  "license": "MIT"
+}
