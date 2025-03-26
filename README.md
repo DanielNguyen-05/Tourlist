@@ -33,10 +33,10 @@ Ensure you have the following software installed on your development machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/DanielNguyen-05/Tour.git
+   git clone https://github.com/DanielNguyen-05/Tourlist.git
    cd Tour
    ```
-2. **Install Dependencies:**
+2. **Install all the libraries in `package.json` file:**
    ```bash
    yarn init
    ```
