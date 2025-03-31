@@ -38,7 +38,7 @@ Ensure you have the following software installed on your development machine:
    ```
 2. **Install all the libraries in `package.json` file:**
    ```bash
-   yarn init
+   yarn install
    ```
 3. **Run the website:**
    ```bash

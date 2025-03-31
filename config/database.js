@@ -4,8 +4,8 @@ module.exports.connect = async () => {
         await mongoose.connect(process.env.DATABASE);
         console.log("success");
       } catch (error) {
+        console.log(error);
         console.log("fails");
-        handleError(error);
       }
     // mongoose.connect(process.env.DATABASE);
 }
