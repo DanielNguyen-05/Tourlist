@@ -1,8 +1,8 @@
 {
-  "name": "Tour",
+  "name": "tour-list",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/DanielNguyen-05/Tour.git",
+  "repository": "https://github.com/DanielNguyen-05/tour-list.git",
   "author": "DanielNguyen-05 <nhdang231@clc.fitus.edu.vn>",
   "license": "MIT",
   "scripts": {

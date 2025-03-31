@@ -33,7 +33,7 @@ Ensure you have the following software installed on your development machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/DanielNguyen-05/Tourlist.git
+   git clone https://github.com/DanielNguyen-05/tour-list.git
    cd Tour
    ```
 2. **Install all the libraries in `package.json` file:**
