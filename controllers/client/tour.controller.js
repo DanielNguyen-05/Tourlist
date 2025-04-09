@@ -12,3 +12,11 @@ module.exports.list = async (req, res) => {
         tourList: tourList
     })
 }
+
+
+// Define the detail function to get the controller of detail route
+module.exports.detail = async (req, res) => {
+    res.render("client/pages/tour-detail", {
+        pageTitle: "The detail of tours"
+    })
+}

@@ -4,4 +4,6 @@ const tourController = require("../../controllers/client/tour.controller");
 
 router.get('/', tourController.list); // this is /tours but we have a index.route file (parent file router) so this becomes child
 
+router.get('/detail', tourController.detail); // create a new link route to the /tours/detail 
+
 module.exports = router;
