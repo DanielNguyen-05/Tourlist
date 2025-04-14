@@ -4,6 +4,7 @@ require('dotenv').config();
 const database = require("./config/database");
 const adminRoutes = require("./routes/admin/index.route");
 const clientRoutes = require("./routes/client/index.route");
+const variableConfig = require("./config/variable");
 
 const app = express()
 const port = 3000
@@ -18,10 +19,13 @@ app.set('view engine', 'pug');  // set the template engine for folder views -> P
 // Set up a folder for Front-end static files
 app.use(express.static(path.join(__dirname, "public")));
 
+// Create a global variable in the file PUG (example: replace the /admin)
+app.locals.pathAdmin = variableConfig.pathAdmin;
+
 // Implement the Route
-app.use("/admin", adminRoutes);
+app.use(`/${variableConfig.pathAdmin}`, adminRoutes);
 app.use("/", clientRoutes);
 
 app.listen(port, () => {
-    console.log(`Website is running on port ${port}`)
+  console.log(`Website is running on port ${port}`)
 })
