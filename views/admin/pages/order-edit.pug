@@ -1,8 +1,5 @@
 extends ../layouts/default.pug
 
-block title
-  title Đơn hàng: OD000001
-
 block main
   h1.box-title Đơn hàng: OD000001
 
@@ -70,4 +67,4 @@ block main
       .inner-button.inner-two-col
         button Cập nhật
     .inner-back
-      a(href="#") Quay lại danh sách
+      a(href=`/${pathAdmin}/order/list`) Quay lại danh sách
