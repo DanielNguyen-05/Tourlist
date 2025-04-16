@@ -9,3 +9,9 @@ module.exports.register = async (req, res) => {
     pageTitle: "Trang đăng ký tài khoản"
   })
 }
+
+module.exports.forgotPassword = async (req, res) => {
+  res.render("admin/pages/forgot-password", {
+    pageTitle: "Trang quên mật khẩu"
+  })
+}
